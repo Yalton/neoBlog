@@ -1,7 +1,53 @@
+/* Variables for the provided HEX colors */
+:root {
+  --color-dark: #0f0a0a;
+  --color-gray: #676666;
+  --color-purple: #b14aed;
+  --color-white: #fbfffe;
+  --color-green: #45cb85;
+}
+
+body {
+  background-color: var(--color-dark);
+  color: var(--color-dark);
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: var(--color-gray);
+  color: var(--color-white);
+}
+
+.contentContainer {
+  color: var(--color-white);
+  text-align: left;
+}
+
+h1,
+h2,
+h3,
+p {
+  color: var(--color-white);
+}
+
+a {
+  color: var(--color-green);
+  text-decoration: none;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.intro {
+  max-width: none;
+  line-height: var(--line-height-loose);
+  color: var(--color-purple);
+}
+
 .list {
   display: grid;
   margin: 0;
-  /* https://css-tricks.com/responsive-layouts-fewer-media-queries/ */
   --w: 280px;
   --n: 2;
   gap: var(--size-gap);
@@ -18,40 +64,20 @@
 }
 
 .listItem::marker {
-  color: #e95800;
-}
-
-.listItem:nth-child(2)::marker {
-  color: #159bf3;
-}
-
-.listItem:nth-child(3)::marker {
-  color: #8eb814;
-}
-
-.listItem:nth-child(4)::marker {
-  color: #663399;
+  color: var(--color-purple);
 }
 
 .listItemLink {
-  color: var(--color-primary);
+  color: var(--color-green);
   font-weight: bold;
 }
 
 .listItemDescription {
-  color: var(--color-text);
+  color: var(--color-gray);
   margin-bottom: 0;
   margin-top: var(--space-1);
 }
 
-.textCenter {
-  text-align: center;
-}
-
-.intro {
-  max-width: none;
-  line-height: var(--line-height-loose);
-}
 @keyframes fallingImage {
   0% {
     transform: translateY(-100%) scale(2);

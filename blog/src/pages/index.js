@@ -70,15 +70,17 @@ const IndexPage = () => {
               ))}
               <br />
             </p>
-            <h1>
+            <div className={styles.contentContainer}>
+            <h1 >
               Welcome to my blog
             </h1>
 
-            <p>This blog's purpose is primarily to share the interesting, fascinating, groundbreaking, research I do in my offtime with anyone interested</p>
-            <p>
+            <p >This blog's purpose is primarily to share the interesting, fascinating, groundbreaking, research I do in my offtime with anyone interested</p>
+            <p >
               This blog is always changing and, as such you can fully expect it to look different if you ever decide to visit it again in a few months. All of the links will remain intact, so if you find something you like feel free to bookmark it.
             </p>
-            <p>New stuff coming all the time; stay tuned, or dont, I'm not your dad. </p>
+            <p >New stuff coming all the time; stay tuned, or dont, I'm not your dad. </p>
+            </div>
           </div>
         )}
 
