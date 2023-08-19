@@ -22,7 +22,7 @@ async function printAsciiArt(filepath) {
         }
     } else if (aenv === 'browser') {
         // Assuming the ASCII art files are served at the /ascii-art directory
-        const url = `/static/ASCI/${filepath}`;
+        const url = `/ASCI/${filepath}`;
         try {
             const response = await fetch(url);
             const data = await response.text();

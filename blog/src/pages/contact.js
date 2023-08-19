@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from '../components/layout';
+import { Link } from 'gatsby';
 import Seo from '../components/seo';
 import { StaticImage } from 'gatsby-plugin-image';
 
@@ -37,6 +38,7 @@ const ContactPage = ({ pageTitle, pageHeading }) => (
                 </div>
             </div>
         </section>
+        <Link to="/">Go back to the homepage</Link>
     </Layout>
 );
 

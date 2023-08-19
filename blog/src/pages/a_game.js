@@ -3,11 +3,6 @@ import Layout from "../components/layout"
 import { useEffect } from 'react';
 import Seo from "../components/seo"
 
-import Constants from "../scripts/a_game/constants";
-import asciiArt from "../scripts/a_game/ascii";
-import Player from "../scripts/a_game/player";
-import { Event, Path } from "../scripts/a_game/event";
-
 
 const GamePage = ({ pageTitle, pageHeading }) => {
     useEffect(() => {
@@ -19,13 +14,22 @@ const GamePage = ({ pageTitle, pageHeading }) => {
             '/scripts/a_game/main.js',
         ];
 
-        scriptPaths.forEach((src) => {
+        const loadScript = (src) => new Promise((resolve, reject) => {
             const script = document.createElement('script');
             script.type = 'module';
             script.src = src;
-            script.async = true;
+            script.onload = resolve;
+            script.onerror = reject;
             document.body.appendChild(script);
         });
+
+        const loadAllScripts = async () => {
+            for (const src of scriptPaths) {
+                await loadScript(src);
+            }
+        };
+
+        loadAllScripts();
 
         return () => {
             // Clean up by removing the appended scripts when the component unmounts
@@ -39,6 +43,42 @@ const GamePage = ({ pageTitle, pageHeading }) => {
     return (
         <Layout>
             <Seo title={pageTitle || "a_game"} />
+            <style
+                dangerouslySetInnerHTML={{
+                    __html: `
+                        #terminal {
+                            background-color: black;
+                            color: limegreen;
+                            font-family: "Courier New", monospace;
+                            padding: 20px;
+                            height: 80vh;
+                            overflow-y: scroll;
+                            white-space: pre-wrap;
+                        }
+
+                        #input,
+                        #prompt {
+                            background-color: black;
+                            color: limegreen;
+                            font-family: "Courier New", monospace;
+                            border: none;
+                            width: 100%;
+                            box-sizing: border-box;
+                        }
+
+                        #prompt {
+                            padding: 0 20px;
+                        }
+
+                        body,
+                        html {
+                            margin: 0;
+                            padding: 0;
+                            height: 100%;
+                        }
+                    `,
+                }}
+            />
             <section className="sec_ctr">
                 <div className="content_container">
                     <div className="content_block">

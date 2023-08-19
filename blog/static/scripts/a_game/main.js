@@ -19,6 +19,8 @@ if (menv === 'node') {
     asciiArt = window.asciiArt;
 }
 
+
+
 const constants = new Constants();
 
 //const prompt = require('prompt-sync')({sigint: true});
@@ -118,10 +120,9 @@ async function victory(obj) {
 }
 
 async function main() {
-    // ...
+    console.log(`Printing path ${window.Path}`);
 
 
-    // Get path choice from player
     await ascisland();
     let you = new Player();
     let path = [];

@@ -52,3 +52,17 @@
   max-width: none;
   line-height: var(--line-height-loose);
 }
+@keyframes fallingImage {
+  0% {
+    transform: translateY(-100%) scale(2);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+}
+
+.animatedImage {
+  animation: fallingImage 1s ease forwards;
+}

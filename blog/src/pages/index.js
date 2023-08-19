@@ -1,10 +1,9 @@
-import * as React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
-
-import Layout from "../components/layout"
-import Seo from "../components/seo"
-import * as styles from "../components/index.module.css"
+import React, { useState, useEffect } from "react";
+import { Link } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
+import Layout from "../components/layout";
+import Seo from "../components/seo";
+import * as styles from "../components/index.module.css";
 
 const samplePageLinks = [
   {
@@ -31,66 +30,64 @@ const samplePageLinks = [
   { text: "TypeScript", url: "using-typescript" },
 
 ]
+const IndexPage = () => {
+  const [contentVisible, setContentVisible] = useState(false); // Create state variable
 
-const IndexPage = () => (
-  <Layout>
-    <div className={styles.textCenter}>
-      <StaticImage
-        src="../images/default/default_image.png"
-        loading="eager"
-        width={64}
-        quality={95}
-        formats={["auto", "webp", "avif"]}
-        alt=""
-        style={{ marginBottom: `var(--space-3)` }}
-      />
-      <div>
-        <h1>
-          Welcome to my blog
-        </h1>
+  useEffect(() => {
+    // Set a timeout for the duration of the animation (1 second in this case)
+    const timer = setTimeout(() => {
+      setContentVisible(true); // Set content to visible after animation
+    }, 1000);
 
-        <p>THis blog's purpose is primarily to share the interesting, fascinating, groundbreaking, research I do in my offtime with anyone interested</p>
-        <p>
-          This blog is always changing and, as such you can fully expect it to look different if you ever decide to visit it again in a few months. All of the links will remain intact, so if you find something you like feel free to bookmark it.
-        </p>
-        <p>New stuff coming all the time; stay tuned, or dont, I'm not your dad. </p>
+    return () => clearTimeout(timer); // Clear timeout on unmount
+  }, []);
+
+  return (
+    <Layout>
+      <div className={styles.textCenter}>
+        <StaticImage
+          className={styles.animatedImage}
+          src="../images/default/default_image.png"
+          loading="eager"
+          width={64}
+          quality={95}
+          formats={["auto", "webp", "avif"]}
+          alt=""
+          placeholder="none" // Add this line
+          style={{ marginBottom: `var(--space-3)` }}
+        />
+
+        {contentVisible && ( // Render content only if contentVisible is true
+
+          <div>
+            <p className={styles.intro}>
+              <b>Links:</b>{" "}
+              {samplePageLinks.map((link, i) => (
+                <React.Fragment key={link.url}>
+                  <Link to={link.url}>{link.text}</Link>
+                  {i !== samplePageLinks.length - 1 && <> · </>}
+                </React.Fragment>
+              ))}
+              <br />
+            </p>
+            <h1>
+              Welcome to my blog
+            </h1>
+
+            <p>This blog's purpose is primarily to share the interesting, fascinating, groundbreaking, research I do in my offtime with anyone interested</p>
+            <p>
+              This blog is always changing and, as such you can fully expect it to look different if you ever decide to visit it again in a few months. All of the links will remain intact, so if you find something you like feel free to bookmark it.
+            </p>
+            <p>New stuff coming all the time; stay tuned, or dont, I'm not your dad. </p>
+          </div>
+        )}
+
       </div>
+    </Layout>
+  );
+};
 
-      <p className={styles.intro}>
-        <b>Example pages:</b>{" "}
-        {samplePageLinks.map((link, i) => (
-          <React.Fragment key={link.url}>
-            <Link to={link.url}>{link.text}</Link>
-            {i !== samplePageLinks.length - 1 && <> · </>}
-          </React.Fragment>
-        ))}
-        <br />
-      </p>
-    </div>
-  </Layout>
-)
 
 export const Head = () => <Seo title="Home" />
 
 export default IndexPage
-
-
-// { text: "TypeScript", url: "using-typescript" },
-// { text: "Server Side Rendering", url: "using-ssr" },
-// { text: "Deferred Static Generation", url: "using-dsg" },
-
-// const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`
-
-{/* <ul className={styles.list}>
-  {links.map(link => (
-    <li key={link.url} className={styles.listItem}>
-      <a
-        className={styles.listItemLink}
-        href={`${link.url}${utmParameters}`}
-      >
-        {link.text} ↗
-      </a>
-      <p className={styles.listItemDescription}>{link.description}</p>
-    </li>
-  ))}
-</ul> */}

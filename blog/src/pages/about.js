@@ -10,14 +10,17 @@ const AboutPage = ({ pageTitle, pageHeading }) => (
     <Seo title={pageTitle || "About"} />
     <div id="heading-div" className="centered">
       <div className="title_header">
-        <div className="page_title">{pageHeading || "About"}</div>
+        <div className="page_title">
+          <h2> {pageHeading || "About"}
+          </h2>
+        </div>
       </div>
     </div>
     <section className="sec_ctr">
       <div className="content_container">
         <div className="content_block">
           <div className="lfloat sub_content_block">
-          <StaticImage src="../images/main_50.JPG" alt="Description" />
+            <StaticImage src="../images/main_50.JPG" alt="Description" />
           </div>
           <div className="lalligned sub_content_block"> {/* Moved this <div> outside the previous one */}
             <h2 className="work-feature-block-header">About Me</h2>
