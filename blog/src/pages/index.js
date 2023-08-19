@@ -28,7 +28,6 @@ const samplePageLinks = [
     description:
       "About Page",
   },
-  { text: "TypeScript", url: "using-typescript" },
 
 ]
 const IndexPage = () => {
