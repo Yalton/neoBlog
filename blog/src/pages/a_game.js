@@ -79,6 +79,14 @@ const GamePage = ({ pageTitle, pageHeading }) => {
                     `,
                 }}
             />
+            <div id="heading-div" className="centered">
+                <div className="title_header">
+                    <div className="page_title">
+                        <h2> {pageHeading || "a_game"}
+                        </h2>
+                    </div>
+                </div>
+            </div>
             <section className="sec_ctr">
                 <div className="content_container">
                     <div className="content_block">

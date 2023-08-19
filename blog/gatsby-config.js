@@ -23,8 +23,14 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-
-    
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `markdown-pages`, // Name of the source
+        path: `${__dirname}/src/markdown-pages`, // Path to markdown files
+      },
+    },
+    `gatsby-transformer-remark`, // Transformer for markdown files
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -36,7 +42,7 @@ module.exports = {
         background_color: `#663399`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
-        // theme_color: `#663399`,
+        theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/default/default_image.png`, // This path is relative to the root of the site.
       },

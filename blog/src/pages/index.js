@@ -3,6 +3,7 @@ import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 import Layout from "../components/layout";
 import Seo from "../components/seo";
+import PostList from "../components/postList";
 import * as styles from "../components/index.module.css";
 
 const samplePageLinks = [
@@ -81,6 +82,8 @@ const IndexPage = () => {
             </p>
             <p >New stuff coming all the time; stay tuned, or dont, I'm not your dad. </p>
             </div>
+            <hr/>
+            <PostList /> 
           </div>
         )}
 
