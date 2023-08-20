@@ -27,7 +27,7 @@ const PostList = () => {
       {posts.map(({ node }) => (
         <div key={node.frontmatter.slug}>
           <h2>
-            <Link to={node.frontmatter.slug}>{node.frontmatter.title}</Link>
+            {node.frontmatter.title}
           </h2>
           <p>{node.frontmatter.date}</p>
           <p>{node.excerpt}</p>

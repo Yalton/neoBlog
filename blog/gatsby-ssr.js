@@ -7,6 +7,17 @@
 /**
  * @type {import('gatsby').GatsbySSR['onRenderBody']}
  */
-exports.onRenderBody = ({ setHtmlAttributes }) => {
+
+const React = require("react");
+
+exports.onRenderBody = ({ setHeadComponents, setHtmlAttributes }) => {
+  setHeadComponents([
+    <link
+      key="font-awesome-css"
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />,
+  ]);
+  
   setHtmlAttributes({ lang: `en` })
 }

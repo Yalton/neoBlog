@@ -1,8 +1,11 @@
 import * as React from "react"
 import { Link } from "gatsby"
+// import "../components/index.module.css";
 
 const Header = ({ siteTitle }) => (
+  
   <header
+  
     style={{
       margin: `0 auto`,
       padding: `var(--space-4) var(--size-gutter)`,
@@ -21,22 +24,12 @@ const Header = ({ siteTitle }) => (
       {siteTitle}
     </Link>
     <div>
-      <a href="https://www.youtube.com/yourchannel" target="_blank" rel="noopener noreferrer">
-        <svg height="20" viewBox="0 0 24 24" fill="red"> {/* YouTube SVG */}
-          <path d="M23.498 6.186a2.834 2.834 0 0 0-1.987-1.985C18.753 3.6 12 3.6 12 3.6s-6.753 0-9.511.601a2.834 2.834 0 0 0-1.987 1.985C.6 8.944.6 12 .6 12s0 3.055.602 5.814a2.834 2.834 0 0 0 1.987 1.985C5.247 20.4 12 20.4 12 20.4s6.753 0 9.511-.601a2.834 2.834 0 0 0 1.987-1.985C24 15.055 24 12 24 12s0-3.055-.602-5.814z" />
-          <path d="M9.545 15.568V8.432l6.791 3.568z" />
-        </svg>
-      </a>
-      <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
-        <svg height="20" viewBox="0 0 24 24" fill="blue"> {/* Twitter SVG */}
-          <path d="M22.46 6.011c-.839.371-1.739.623-2.68.738a4.67 4.67 0 0 0 2.048-2.578 9.303 9.303 0 0 1-2.958 1.128 4.66 4.66 0 0 0-7.938 4.25A13.22 13.22 0 0 1 1.67 4.415a4.651 4.651 0 0 0 1.44 6.22 4.65 4.65 0 0 1-2.11-.583v.059a4.66 4.66 0 0 0 3.74 4.564 4.65 4.65 0 0 1-2.104.08 4.66 4.66 0 0 0 4.34 3.234 9.348 9.348 0 0 1-5.78 1.995 9.5 9.5 0 0 1-1.11-.065a13.19 13.19 0 0 0 7.14 2.09c8.57 0 13.25-7.093 13.25-13.248 0-.2-.006-.402-.016-.602A9.49 9.49 0 0 0 24 4.59a9.18 9.18 0 0 1-2.54.694z" />
-        </svg>
-      </a>
-      <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
-        <svg height="20" viewBox="0 0 24 24" fill="black"> {/* GitHub SVG */}
-          <path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.09.682-.216.682-.483 0-.237-.009-.868-.014-1.703-2.782.602-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.462-1.11-1.462-.908-.62.068-.608.068-.608 1.004.071 1.532 1.03 1.532 1.03.892 1.529 2.341 1.089 2.912.834.092-.647.349-1.086.635-1.337-2.22-.251-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.03-2.682-.104-.253-.447-1.272.098-2.65 0 0 .84-.268 2.75 1.025.8-.223 1.65-.334 2.5-.338.85.004 1.7.115 2.5.338 1.91-1.293 2.75-1.025 2.75-1.025.545 1.378.202 2.397.098 2.65.64.698 1.03 1.59 1.03 2.682 0 3.841-2.34 4.687-4.565 4.932.36.31.68.92.68 1.852 0 1.336-.012 2.415-.012 2.744 0 .27.18.577.688.48C19.138 20.161 22 16.416 22 12c0-5.523-4.477-10-10-10z" />
-        </svg>
-      </a>
+    
+      <a style={{margin: `0.4rem`}} href="https://www.youtube.com/channel/UCO15_OopxuznMbMnSb-EwqA" target="_blank" className="a-icon" rel="noopener noreferrer" ><i className="fa fa-youtube"></i></a>
+      <a style={{margin: `0.4rem`}} href="https://www.twitch.tv/daltipolous" target="_blank" className="a-icon" rel="noopener noreferrer" ><i className="fa fa-twitch"></i></a>
+      <a style={{margin: `0.4rem`}} href="https://twitter.com/yalt7117" target="_blank" className="a-icon" rel="noopener noreferrer" ><i className="fa fa-twitter"></i></a>
+      <a style={{margin: `0.4rem`}} href="https://github.com/Yalton" target="_blank" className="a-icon" rel="noopener noreferrer" ><i className="fa fa-github"></i></a>
+      <a style={{margin: `0.4rem`}} href="https://www.linkedin.com/in/dalton-r-bailey/" target="_blank" className="a-icon" rel="noopener noreferrer" ><i className="fa fa-linkedin"></i></a>
     </div>
   </header>
 )

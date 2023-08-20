@@ -8,13 +8,6 @@ import * as styles from "../components/index.module.css";
 
 const samplePageLinks = [
   {
-    text: "a_game",
-    url: "a_game",
-    badge: false,
-    description:
-      "Text Based game in the style of the 1980's terminal games",
-  },
-  {
     text: "contact",
     url: "contact",
     badge: false,
@@ -28,8 +21,24 @@ const samplePageLinks = [
     description:
       "About Page",
   },
+  {
+    text: "a_game",
+    url: "a_game",
+    badge: false,
+    description:
+      "Text Based game in the style of the 1980's terminal games",
+  },
+
+  {
+    text: "3dPrinterCam",
+    url: "3dPrinterCam",
+    badge: false,
+    description:
+      "Live Stream of camera from 3D printer",
+  },
 
 ]
+
 const IndexPage = () => {
   const [contentVisible, setContentVisible] = useState(false); // Create state variable
 
@@ -65,21 +74,17 @@ const IndexPage = () => {
               {samplePageLinks.map((link, i) => (
                 <React.Fragment key={link.url}>
                   <Link to={link.url}>{link.text}</Link>
-                  {i !== samplePageLinks.length - 1 && <> · </>}
+                  {i !== samplePageLinks.length - 1 && <> - </>}
                 </React.Fragment>
               ))}
               <br />
             </p>
             <div className={styles.contentContainer}>
             <h1 >
-              Welcome to my blog
+              Welcome
             </h1>
-
-            <p >This blog's purpose is primarily to share the interesting, fascinating, groundbreaking, research I do in my offtime with anyone interested</p>
-            <p >
-              This blog is always changing and, as such you can fully expect it to look different if you ever decide to visit it again in a few months. All of the links will remain intact, so if you find something you like feel free to bookmark it.
-            </p>
-            <p >New stuff coming all the time; stay tuned, or dont, I'm not your dad. </p>
+            <p> I write about stuff I find interesting and render it here for your viewing pleasure</p>
+            <p> Check out the links in the top right if you want to see what else I get up to</p>
             </div>
             <hr/>
             <PostList /> 
