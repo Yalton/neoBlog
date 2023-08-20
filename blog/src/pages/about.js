@@ -17,15 +17,9 @@ const AboutPage = ({ pageTitle, pageHeading }) => (
       </div>
     </div>
     <div className="content_container">
-      <div className="content_block">
-        <div className="lfloat sub_content_block">
-          <StaticImage src="../images/main_50.JPG" alt="Description" />
-        </div>
         <div className="lalligned sub_content_block"> {/* Moved this <div> outside the previous one */}
-          <p>I have always been passionate about learning, with an insatiable curiosity to acquire knowledge and apply it to create new connections or bridge gaps across seemingly unrelated subjects. Each day, I strive to learn something new, particularly if it holds potential for application in future projects. Committed to personal growth and development, I enjoy challenging myself and revel in surpassing my past achievements.</p>
-          <p>My interests are diverse and ever-evolving, but one constant fascination has been my love for computers and their limitless capabilities. To me, computers represent humanity's most significant invention, providing us with unprecedented accuracy in calculations, predictions, and information processing. I feel incredibly fortunate to have been born in an era where any question can be answered with a simple keystroke, opening up a world of endless possibilities and discovery.</p>
+          <p>I like making things and playing games; I have a lot of niche interests many of which I will display with posts on this blog.</p>
         </div>
-      </div>
     </div>
     <Link to="/">Go back to the homepage</Link>
   </Layout>

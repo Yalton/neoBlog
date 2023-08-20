@@ -1,11 +1,13 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, lazy,  Suspense} from "react";
 import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 import Layout from "../components/layout";
 import Seo from "../components/seo";
-import PostList from "../components/postList";
+// import PostList from "../components/postList";
 import * as styles from "../components/index.module.css";
 
+
+const PostList = lazy(() => import("../components/postList"));
 const samplePageLinks = [
   {
     text: "contact",
@@ -87,7 +89,9 @@ const IndexPage = () => {
             <p> Check out the links in the top right if you want to see what else I get up to</p>
             </div>
             <p> -------------------------------- </p>
-            <PostList /> 
+            <Suspense fallback={<div>Loading posts...</div>}>
+            <PostList />
+          </Suspense>
           </div>
         )}
 
