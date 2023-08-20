@@ -86,7 +86,7 @@ const IndexPage = () => {
             <p> I write about stuff I find interesting and render it here for your viewing pleasure</p>
             <p> Check out the links in the top right if you want to see what else I get up to</p>
             </div>
-            <hr/>
+            <p> -------------------------------- </p>
             <PostList /> 
           </div>
         )}

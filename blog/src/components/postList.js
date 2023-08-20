@@ -24,6 +24,7 @@ const PostList = () => {
 
   return (
     <div className={styles.contentContainer}>
+      <h1>Poasts</h1>
       {posts.map(({ node }) => (
         <div key={node.frontmatter.slug}>
           <h2>
