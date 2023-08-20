@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  neoblog:
+    image: neoblog
+    container_name: neoblog
+    ports:
+      - "8080:8000"
+    restart: unless-stopped
