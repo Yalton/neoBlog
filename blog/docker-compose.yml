@@ -4,5 +4,5 @@ services:
     image: neoblog
     container_name: neoblog
     ports:
-      - "8080:8000"
+      - "8080:9000"
     restart: unless-stopped

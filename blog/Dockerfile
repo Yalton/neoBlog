@@ -19,8 +19,11 @@ RUN npm run build
 # Install the Gatsby CLI
 RUN npm install -g gatsby-cli
 
-# Expose the port Gatsby will run on
-EXPOSE 8000
 
-# Start the Gatsby development server
-CMD ["gatsby", "develop", "-H", "0.0.0.0"]
+RUN gatsby build
+
+# Expose the port Gatsby will run on
+EXPOSE 9000
+
+# Serve the Gatsby production build
+CMD ["gatsby", "serve", "-H", "0.0.0.0", "-p", "9000"]
