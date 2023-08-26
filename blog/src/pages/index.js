@@ -61,7 +61,7 @@ const IndexPage = () => {
           src="../images/default/default_image.png"
           loading="eager"
           width={64}
-          quality={95}
+          quality={75}
           formats={["auto", "webp", "avif"]}
           alt=""
           placeholder="none" // Add this line
