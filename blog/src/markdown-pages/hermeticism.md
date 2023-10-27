@@ -3,8 +3,28 @@ title: "Hermeticism"
 slug: "/hermeticism"
 ---
 
+# Hermeticism 
 
-# Introduction
+## Table of Contents 
+
+- [Hermeticism](#hermeticism)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Role in developing modern science](#role-in-developing-modern-science)
+  - [Pinciples](#pinciples)
+    - [7 hermetic Principles](#7-hermetic-principles)
+  - [Other principles](#other-principles)
+  - [How reality is divided](#how-reality-is-divided)
+  - [Writings: Hermetica](#writings-hermetica)
+    - [Technical Hermetica](#technical-hermetica)
+    - [Philosophical Hermetica](#philosophical-hermetica)
+      - [Corpus Hermeticum](#corpus-hermeticum)
+      - [Treatises](#treatises)
+    - [Emerald Tablet](#emerald-tablet)
+
+
+
+## Introduction
 
 Hermeticism is an ancient philosophical and religious tradition based on
 the teachings of the Egyptian god Hermes Trismegistus, who is believed
@@ -26,7 +46,7 @@ restrictively called Hermetism, to distinguish it from the philosophies
 inspired by the many Hermetic writings of a completely different period
 and nature.
 
-# Role in developing modern science
+## Role in developing modern science
 
 Hermeticism played an important role in the development of modern
 science, particularly in the fields of mathematics, astronomy, and
@@ -50,9 +70,9 @@ thesis has since been largely rejected the important role played by the
 Baptist van Helmont (1580–1644), Robert Boyle (1627–1691) or Isaac
 Newton (1642–1727) has been amply demonstrated
 
-# Pinciples
+## Pinciples
 
-## 7 hermetic Principles
+### 7 hermetic Principles
 
 The 7 hermetic principles are
 
@@ -162,7 +182,7 @@ idea is closely related to the Hermetic belief that all things are
 connected, and that by understanding and working with these connections,
 we can access the divine power within us.
 
-# How reality is divided
+## How reality is divided
 
 The Hermeticism Spheres of Reality are a set of four interrelated
 spiritual realms that form the foundation of Hermetic philosophy. These
@@ -174,13 +194,13 @@ realm of will and spiritual consciousness. Hermeticism teaches that by
 understanding and mastering these four planes of reality, one can gain
 spiritual knowledge and ascend to higher levels of existence.
 
-# Writings: Hermetica
+## Writings: Hermetica
 
-## Technical Hermetica
+### Technical Hermetica
 
-## Philosophical Hermetica
+### Philosophical Hermetica
 
-### Corpus Hermeticum
+#### Corpus Hermeticum
 
 The Corpus Hermeticum is a collection of texts written in the 2nd and
 3rd centuries CE in Egypt. It is considered to be the foundational

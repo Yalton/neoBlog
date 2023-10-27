@@ -3,8 +3,9 @@ title: "Diffusion Models"
 slug: "/diffusion_models"
 ---
 
-Diffusion Models
-================
+## Diffusion Models
+
+---
 
 The term “diffusion” in the context of artificial intelligence (AI),
 specifically deep learning, often refers to diffusion models, also known

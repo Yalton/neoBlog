@@ -4,7 +4,29 @@ slug: "/windows_notes"
 ---
 
 
+
 # Windows Notes
+
+## Table of Contents
+
+- [Windows Notes](#windows-notes)
+  - [Table of Contents](#table-of-contents)
+    - [Path to add apps to start](#path-to-add-apps-to-start)
+    - [Stops Superfetch](#stops-superfetch)
+    - [Opens program uninstallers (from run)](#opens-program-uninstallers-from-run)
+    - [Get product key](#get-product-key)
+    - [Windows Debloater Script](#windows-debloater-script)
+    - [Windows ls](#windows-ls)
+    - [Command to Kill Cortana](#command-to-kill-cortana)
+    - [Type into run utility prompt to view all services](#type-into-run-utility-prompt-to-view-all-services)
+    - [Create Symlink](#create-symlink)
+    - [Disk Partition Utility](#disk-partition-utility)
+    - [Forces a partition to be deleted](#forces-a-partition-to-be-deleted)
+    - [Scan and repair corruptions in system files](#scan-and-repair-corruptions-in-system-files)
+    - [Get Execeution policy for powershell](#get-execeution-policy-for-powershell)
+    - [Set Execeution policy for powershell to unrestricted](#set-execeution-policy-for-powershell-to-unrestricted)
+    - [View event History](#view-event-history)
+    - [Connect WSL to xlanch display](#connect-wsl-to-xlanch-display)
 
 ---
 

@@ -1,9 +1,9 @@
 /* Variables for the provided HEX colors */
 :root {
   --color-dark: #0f0a0a;
-  --color-gray: #676666;
+  --color-gray: #bcbcbc;
   --color-purple: #b14aed;
-  --color-white: #fbfffe;
+  --color-white: #ffffff;
   --color-green: #45cb85;
 }
 
@@ -27,8 +27,8 @@ p,
 hr {
   color: var(--color-white);
 }
-strong
-{
+
+strong {
   text-underline-position: under;
 }
 
@@ -40,6 +40,10 @@ h5,
 h6 {
   color: var(--color-gray);
   font: bold;
+}
+
+#text {
+  color: var(--color-white);
 }
 
 a {
@@ -63,10 +67,8 @@ a {
   --w: 280px;
   --n: 2;
   gap: var(--size-gap);
-  grid-template-columns: repeat(
-    auto-fit,
-    minmax(max(var(--w), 100%/ (var(--n) + 1) + 0.1%), 1fr)
-  );
+  grid-template-columns: repeat(auto-fit,
+      minmax(max(var(--w), 100%/ (var(--n) + 1) + 0.1%), 1fr));
   margin-bottom: var(--size-gap);
   margin-top: var(--size-gap);
 }
@@ -95,6 +97,7 @@ a {
     transform: translateY(-100%) scale(2);
     opacity: 0;
   }
+
   100% {
     transform: translateY(0) scale(1);
     opacity: 1;

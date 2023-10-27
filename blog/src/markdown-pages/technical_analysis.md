@@ -3,12 +3,28 @@ title: "Technical Analysis"
 slug: "/techAnalysis"
 ---
 
+# Technical Analysis
 
-# Introduction 
+## Table of Contents
+
+- [Technical Analysis](#technical-analysis)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Trending Markets](#trending-markets)
+  - [Up-trends](#up-trends)
+    - [Impulsive moves and Pullbacks](#impulsive-moves-and-pullbacks)
+  - [Downtrends](#downtrends)
+  - [Support and Resistance](#support-and-resistance)
+  - [Support resistance strategy](#support-resistance-strategy)
+  - [Support Resistance Summation](#support-resistance-summation)
+  - [Indicators](#indicators)
+
+
+## Introduction
 
 Technical analysis is the core of making educated trading decisions, without it you cannot consistently make a profit, but with it you can make more educated predictions about where a market might go and how profitable a position can be. 
 
-# Trending Markets 
+## Trending Markets
 
 Analyzing the trend of the market is the process of determining whether a market is in the process of moving up or down via utilizing trend lines and other such indicators. 
 
@@ -37,7 +53,7 @@ Downtrends are the opposite of up trends indicative of the fact that the asset i
 
 ![Identifying Uptrends](/images/technical_Analysis/IdentifyingDowntrends.png){width=50%}
 
-# Support and Resistance 
+## Support and Resistance 
 
 Support and resistance are simply areas in the market that price is likely to react from Support is an area in the market that price is likely to have a bounce up from or be supported by; whereas Resistance is an area in the market where the price of an asset is likely to fall or drop down from these areas are based on historic price and based on other areas of Support and resistance
 
@@ -89,7 +105,7 @@ For a buy trade, we don't want our target to be beyond a major resistance level,
 
 For a sell trade, we want the market to go lower, but not beyond a level of support. This is because a support level could push the market up, which is not favorable for a sell trade. Therefore, we should aim to take profits or at least move our stop-loss to break even before the market reaches this support level.
 
-# Indicators 
+## Indicators 
 
 
 Trading indicators 

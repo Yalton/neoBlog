@@ -3,19 +3,41 @@ title: "Candle Stick Charts"
 slug: "/candlestickcharts"
 ---
 
+# CandleStick Charts 
 
-Introduction
-============
+## Table of Contents
+
+- [CandleStick Charts](#candlestick-charts)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Reading Candlestick Charts](#reading-candlestick-charts)
+    - [Understand the components of a candlestick](#understand-the-components-of-a-candlestick)
+    - [Identify the time frame](#identify-the-time-frame)
+    - [Analyze the patterns](#analyze-the-patterns)
+    - [Combine with technical indicators](#combine-with-technical-indicators)
+    - [Monitor volume](#monitor-volume)
+    - [In Summation](#in-summation)
+  - [Opening and Closing](#opening-and-closing)
+    - [Opening and Closing Prices in Crypto Candlestick Charts](#opening-and-closing-prices-in-crypto-candlestick-charts)
+    - [In Summation](#in-summation-1)
+
+
+
+## Introduction
+
+---
 
 Candlestick charts are a popular way to visualize price movements for
 stocks and cryptocurrencies. They display four key pieces of information
 for a specific time period (e.g., 1 minute, 1 hour, 1 day, etc.): the
 opening price, closing price, highest price, and lowest price.
 
-Reading Candlestick Charts
-==========================
+## Reading Candlestick Charts
 
-1. Understand the components of a candlestick
+---
+
+### Understand the components of a candlestick
+
 ---------------------------------------------
 
 -   **Body**: The rectangle in the middle represents the range between
@@ -35,14 +57,16 @@ Reading Candlestick Charts
     of the body to the highest price, while the lower wick extends from
     the bottom of the body to the lowest price.
 
-2. Identify the time frame
+### Identify the time frame
+
 --------------------------
 
 Determine the time period each candlestick represents, such as 1 minute,
 1 hour, or 1 day. This information can usually be found on the chart’s
 settings or axis labels.
 
-3. Analyze the patterns
+### Analyze the patterns
+
 -----------------------
 
 Candlestick patterns can help you identify trends, reversals, and
@@ -79,7 +103,8 @@ Harami, etc.
 <img src="/images/candleStickCharts/dojis.png" style="width:50.0%" alt="Dojis" />
 <img src="/images/candleStickCharts/harami.png" style="width:50.0%" alt="Harami" />
 
-4. Combine with technical indicators
+### Combine with technical indicators
+
 ------------------------------------
 
 Enhance your analysis by using technical indicators like moving
@@ -88,7 +113,8 @@ Convergence Divergence), Bollinger Bands, etc. These indicators can help
 you identify trends, potential entry/exit points, and
 overbought/oversold conditions.
 
-5. Monitor volume
+### Monitor volume
+
 -----------------
 
 Analyzing trading volume alongside candlestick charts can provide
@@ -103,8 +129,9 @@ Remember that candlestick charts provide just one perspective on the
 market, and it’s essential to consider other factors such as fundamental
 analysis, news, and market sentiment when making trading decisions.
 
-Opening and Closing
-===================
+## Opening and Closing
+
+---
 
 Cryptocurrency markets operate 24/7, but the concept of opening and
 closing prices still applies when analyzing candlestick charts. These

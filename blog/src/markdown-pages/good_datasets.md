@@ -4,7 +4,9 @@ slug: "/data_sets"
 ---
 
 # DATA Sets
+
 ---- 
+
 * AWS (Open data) - https://registry.opendata.aws/
 * Allen.ai - Allen.ai
 * DATA - GOV (EU) - https://data.europa.eu/euodp/data/dataset

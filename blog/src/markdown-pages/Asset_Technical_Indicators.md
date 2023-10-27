@@ -3,9 +3,22 @@ title: "Asset Technical Indicator"
 slug: "/technicalIndicators"
 ---
 
+# Asset Technical Indicators 
 
-Introduction
-============
+## Table of Contents
+
+- [Asset Technical Indicators](#asset-technical-indicators)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [RSI (Relative Strength Index):](#rsi-relative-strength-index)
+  - [MACD (Moving Average Convergence Divergence):](#macd-moving-average-convergence-divergence)
+  - [Bollinger Bands](#bollinger-bands)
+
+
+
+## Introduction
+
+---
 
 Technical indicators are mathematical calculations based on historical
 price and volume data that help traders identify trends, reversals, and
@@ -13,8 +26,9 @@ potential trading opportunities. Here’s an explanation of three popular
 technical indicators: RSI (Relative Strength Index), MACD (Moving
 Average Convergence Divergence), and Bollinger Bands.
 
-RSI (Relative Strength Index):
-==============================
+## RSI (Relative Strength Index):
+
+---
 
 RSI is a momentum oscillator that measures the speed and change of price
 movements. It ranges from 0 to 100 and is typically used to identify
@@ -32,8 +46,9 @@ conditions, implying that the asset might be undervalued and due for a
 price rebound. Traders often use these levels as potential entry and
 exit points.
 
-MACD (Moving Average Convergence Divergence):
-=============================================
+## MACD (Moving Average Convergence Divergence):
+
+---
 
 MACD is a trend-following momentum indicator that shows the relationship
 between two moving averages of an asset’s price.
@@ -56,8 +71,9 @@ the MACD crosses below the signal line, it generates a bearish signal,
 indicating that the asset’s price might be losing momentum and it could
 be a good time to sell.
 
-Bollinger Bands
-===============
+## Bollinger Bands
+
+---
 
 Bollinger Bands are a volatility indicator that consists of a moving
 average (usually a simple moving average) and two standard deviation
