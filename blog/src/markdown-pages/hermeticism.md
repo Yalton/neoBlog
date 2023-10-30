@@ -215,48 +215,23 @@ by many scholars of Hermeticism and the occult.
 
 #### Treatises
 
--   I. Discourse of Poimandres to Hermes Trismegistus
-
--   1.  Hermes to Asclepius
-
--   1.  A sacred discourse of Hermes
-
--   1.  A discourse of Hermes to Tat: The mixing bowl or the monad
-
--   V. A discourse of Hermes to Tat, his son: That god is invisible and
-    entirely visible
-
--   1.  Hermes to Asclepius: That the good is in god alone and nowhere
-        else
-
--   1.  That the greatest evil in mankind is ignorance concerning god
-
--   1.  Hermes to Tat: That none of the things that are is destroyed,
-        and they are mistaken who say that changes are deaths and
-        destructions
-
--   1.  Hermes to Asclepius: On understanding and sensation: \[That the
-        beautiful and good are in god alone and nowhere else\]
-
--   X. Hermes to Tat: The key
-
--   1.  Mind (Nous) to Hermes
-
--   1.  Hermes to Tat: On the mind shared in common
-
--   1.  Hermes to Tat, a secret dialogue on the mountain: On being born
-        again, and on the promise to be silent
-
--   1.  Hermes to Asclepius: health of mind
-
--   1.  Asclepius to King Ammon: Definitions on god, matter, vice, fate,
-        the sun, intellectual essence, divine essence, mankind, the
-        arrangement of the plenitude, the seven stars, and mankind
-        according to the image
-
--   1.  Asclepius to King Ammon
-
--   1.  Tat to a king: On the soul hindered by the body’s affections
+I. Discourse of Poimandres to Hermes Trismegistus
+1. Hermes to Asclepius
+1. A sacred discourse of Hermes
+1. A discourse of Hermes to Tat: The mixing bowl or the monad
+V. A discourse of Hermes to Tat, his son: That god is invisible and entirely visible
+- 1. Hermes to Asclepius: That the good is in god alone and nowhere else
+- 1. That the greatest evil in mankind is ignorance concerning god
+- 1. Hermes to Tat: That none of the things that are is destroyed, and they are mistaken who say that changes are deaths and destructions
+- 1. Hermes to Asclepius: On understanding and sensation: [That the beautiful and good are in god alone and nowhere else]
+- X. Hermes to Tat: The key
+- 1. Mind (Nous) to Hermes
+- 1. Hermes to Tat: On the mind shared in common
+- 1. Hermes to Tat, a secret dialogue on the mountain: On being born again, and on the promise to be silent
+- 1. Hermes to Asclepius: health of mind
+- 1. Asclepius to King Ammon: Definitions on god, matter, vice, fate, the sun, intellectual essence, divine essence, mankind, the arrangement of the plenitude, the seven stars, and mankind according to the image
+- 1. Asclepius to King Ammon
+- 1. Tat to a king: On the soul hindered by the body’s affections
 
 ### Emerald Tablet
 

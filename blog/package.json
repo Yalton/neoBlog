@@ -16,6 +16,8 @@
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
     "react-markdown": "^8.0.7",
+    "react-mathjax": "^1.0.1",
+    "remark-math": "^6.0.0",
     "typescript": "^5.1.6"
   },
   "devDependencies": {

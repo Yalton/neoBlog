@@ -42,7 +42,8 @@ h6 {
   font: bold;
 }
 
-#text {
+#text,
+li {
   color: var(--color-white);
 }
 

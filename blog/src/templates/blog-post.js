@@ -1,12 +1,18 @@
-import React from "react"
+import React, { useEffect } from "react"
 import { graphql } from "gatsby"
 import { Link } from 'gatsby';
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 export default function BlogPost({ data }) {
+
   const post = data.markdownRemark
   const pageTitle = post.frontmatter.title;
+  // useEffect(() => {
+  //   if (window.MathJax) {
+  //     window.MathJax.Hub.Queue(["Typeset", window.MathJax.Hub]);
+  //   }
+  // }, []);
   return (
     <Layout>
       <Seo title={pageTitle} />
@@ -15,7 +21,6 @@ export default function BlogPost({ data }) {
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
       <Link to="/">Go back to the homepage</Link>
-
     </Layout>
 
   )
@@ -27,6 +32,7 @@ export const query = graphql`
       html
       frontmatter {
         title
+
       }
     }
   }

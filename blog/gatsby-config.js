@@ -30,7 +30,14 @@ module.exports = {
         path: `${__dirname}/src/markdown-pages`, // Path to markdown files
       },
     },
-    `gatsby-transformer-remark`, // Transformer for markdown files
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          `gatsby-remark-katex`,
+        ],
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
