@@ -105,7 +105,7 @@ Leptons are important in the Standard Model of particle physics, as they are res
 
 #### Electron
 
-The electron is the most common lepton and is a negatively charged subatomic particle. It has a mass of approximately $ 9.109 * 10 \- 31 $ kg, and its size is approximately $ 10\-15 $ m. Electrons are found in all atoms, and they are responsible for chemical bonding and electrical conductivity in matter. They are also responsible for the transfer of energy in the form of light, heat, and electricity. Electrons interact with other particles via the electromagnetic force and the weak force.
+The electron is the most common lepton and is a negatively charged subatomic particle. It has a mass of approximately $ 9.109 * 10^{-31} $ kg, and its size is approximately $ 10^{-15 }$ m. Electrons are found in all atoms, and they are responsible for chemical bonding and electrical conductivity in matter. They are also responsible for the transfer of energy in the form of light, heat, and electricity. Electrons interact with other particles via the electromagnetic force and the weak force.
 
 #### Muon
 
@@ -113,7 +113,7 @@ The muon is a heavy, unstable lepton with a negative electric charge. It is simi
 
 #### Tau
 
-The tau particle is the third type of lepton and is the heaviest of the three. It has a mass of approximately 3400 MeV/c2 and a lifetime of approximately $ 2.9 * 10 \- 13 $ seconds. The tau particle is unstable and decays into other particles. It is responsible for a number of processes in particle physics, including the production of neutrinos and the decay of the Higgs boson. The tau particle also participates in weak interactions, and its decay products can be detected in particle detectors.
+The tau particle is the third type of lepton and is the heaviest of the three. It has a mass of approximately 3400 MeV/c2 and a lifetime of approximately $ 2.9 * 10^{-13 }$ seconds. The tau particle is unstable and decays into other particles. It is responsible for a number of processes in particle physics, including the production of neutrinos and the decay of the Higgs boson. The tau particle also participates in weak interactions, and its decay products can be detected in particle detectors.
 
 #### Neutrinos
 
