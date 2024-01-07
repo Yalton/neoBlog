@@ -6,7 +6,7 @@ import Seo from "../components/seo";
 import { Link } from 'gatsby';
 
 const CameraStream = ({ pageTitle, pageHeading }) => {
-    const imgUrl = 'http://192.168.50.33/html/cam_pic.php';
+    const imgUrl = 'https://3dcam.billbert.co/html/cam_pic.php';
 
     useEffect(() => {
         const imgElement = document.getElementById('cameraStream');

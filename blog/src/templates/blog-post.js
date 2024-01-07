@@ -1,4 +1,4 @@
-import React, { useEffect } from "react"
+import React from "react"
 import { graphql } from "gatsby"
 import { Link } from 'gatsby';
 import Layout from "../components/layout"
@@ -8,11 +8,7 @@ export default function BlogPost({ data }) {
 
   const post = data.markdownRemark
   const pageTitle = post.frontmatter.title;
-  // useEffect(() => {
-  //   if (window.MathJax) {
-  //     window.MathJax.Hub.Queue(["Typeset", window.MathJax.Hub]);
-  //   }
-  // }, []);
+
   return (
     <Layout>
       <Seo title={pageTitle} />
